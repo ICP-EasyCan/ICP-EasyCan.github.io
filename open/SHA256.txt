@@ -1,0 +1,9 @@
+5c5d0b0bf7ba22f46972ed16164b27c64b58020a8ec754141e8dd5616898725c  capsule-opener.html
+
+# How to verify this opener has not been tampered with.
+# The opener is a single self-contained HTML page (served at /open). Save it, then:
+#     sha256sum <the-file-you-saved>
+# The hash it prints must equal the value above. The hash is content-based, so the
+# filename does not matter. For the strongest check, compare that value against the
+# git history of the public source repo (github.com/ICP-EasyCan/ICP-EasyCan.github.io),
+# where rewriting it would be loud and tamper-evident.
